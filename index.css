@@ -1,0 +1,121 @@
+body { 
+    background: url("BG_purple.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  section{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+  }
+
+  header {
+    position:fixed;
+    left:0;
+    top:0; 
+    width:100%;
+  
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  
+    transition: 0.6s;
+    padding: 0px 100px;
+    background-color: black;
+
+}
+  
+  
+  .navbar_title {
+    font-size: 1.8rem;
+    font-weight:585;
+    transition:0.6s;}
+  .navbar_title a {
+    position: relative;
+    color:rgb(63, 70, 75);
+    text-decoration:none;
+    transition:0.6s}
+  
+  .navbar_nav {
+    display:flex;
+    }
+  
+  .navbar_link {
+    list-style:none;
+    margin:0 10px;}
+  
+  .navbar_link a {
+    position: relative;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration:none;
+    transition:0.6s}
+
+    .home_sec{
+        display: flex;
+        justify-content:space-between;
+        
+    }
+
+    .home_para{
+        color: white;
+    }
+    .home_para h1{
+        font-size: 90px;
+    }
+    .home_para h2{
+        font-size: 70px;
+        color: green;
+    }
+    .home_para h3{
+        font-size: 20px;
+    }
+
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden
+    }
+    .fill img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
+
+    .rules_sec{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 30px;
+    }
+    @media only screen and (max-width: 600px) {
+        .home_sec{
+            display: flex;
+            justify-content:space-between;
+            flex-direction: column ;
+        }
+
+
+        .home_para h1{
+            font-size: 60px;
+        }
+        .home_para h2{
+            font-size: 3px;
+            color: green;
+        }
+        .home_para h3{
+            font-size: 10px;
+        }
+      }
