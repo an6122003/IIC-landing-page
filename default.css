@@ -15,7 +15,6 @@ body {
     display:flex;
     align-items:center;
     justify-content:center;
-
   }
 
   header {
@@ -23,7 +22,7 @@ body {
     left:0;
     top:0; 
     width:100%;
-  
+    z-index: 1000;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -82,16 +81,34 @@ body {
         
     }
 
+    .sponsor_para{
+        color: white;
+        align-items: flex-end;
+        
+    }
+
+    .sponsor_para h1{
+        font-size: 50px;
+        font-family: "IIC-Tagline";
+        margin: 10px;
+    }
+
+    .sponsor_para h2{
+        font-size: 30px;
+        font-family: ;
+        margin: 10px;
+    }
+
     .home_para{
         color: white;
     }
     .home_para h1{
-        font-size: 80px;
+        font-size: 70px;
         font-family: "IIC-Title";
         color: #FFF45C;
     }
     .home_para h2{
-        font-size: 60px;
+        font-size: 50px;
         color: #7EFAB9;
         font-family: "IIC-Tagline";
     }
@@ -134,10 +151,11 @@ body {
         font-family: "IIC-Title";
         box-sizing: border-box;
         border: 0;
-        font-size: 16px;
+        font-size: 50px;
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
+        margin-top: 30px;
         
       }
       
@@ -158,6 +176,7 @@ body {
         -webkit-filter: saturate(0.2) opacity(0.5);
         cursor: not-allowed;
       }
+
     @media only screen and (max-width: 600px) {
         .home_sec{
             display: flex;
