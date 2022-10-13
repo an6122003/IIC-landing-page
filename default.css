@@ -177,7 +177,7 @@ body {
         cursor: not-allowed;
       }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         .home_sec{
             display: flex;
             justify-content:space-between;
@@ -189,8 +189,7 @@ body {
             font-size: 60px;
         }
         .home_para h2{
-            font-size: 3px;
-            color: green;
+            font-size: 30px;
         }
         .home_para h3{
             font-size: 10px;
@@ -216,5 +215,112 @@ body {
         .card{
             margin: 0px;
             width: 200px;
+        }
+
+        #navigation_bar{
+          display: none;
+        }
+
+      }
+
+@media only screen and (max-width: 700px) {
+        .body, html {
+          margin-left:2%;
+          margin-right:2%;
+          margin-bottom:5%;
+          margin-top:5%;
+          }
+        .home_sec{
+            display: flex;
+            justify-content:space-between;
+            flex-direction: column ;
+
+        }
+
+        .home_para h1{
+            font-size: 35px;
+        }
+        .home_para h2{
+            font-size: 20px;
+        }
+        .home_para h3{
+            font-size: 15px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .header {
+            position:fixed;
+            left:0;
+            top:0; 
+            width:100%;
+          
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:space-between;
+          
+            transition: 0.6s;
+            padding: 0px 100px;
+            background-color: black;
+        
+        }
+
+        .card{
+            margin: 0px;
+            width: 200px;
+        }
+
+        #navigation_bar{
+          display: none;
+        }
+
+        .button-32{
+          background-color: #fff000;
+          border-radius: 5px;
+          color: #000;
+          cursor: pointer;
+          font-weight: bold;
+          padding: 10px 15px;
+          text-align: center;
+          transition: 200ms;
+          font-family: "IIC-Title";
+          box-sizing: border-box;
+          border: 0;
+          font-size: 20px;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          margin-top: 30px;
+        }
+
+        .rules_sec{
+          display: block;
+      }
+        .a.btn.btn-dark.btn-lg{
+          font-size: 2px;
+        }
+
+        .sponsor_para h1{
+          font-size: 35px;
+          
+        }
+
+        .sponsor_para h2{
+          font-size: 20px;
+          
+        }
+
+        .sponsor_para img{
+          margin: 10px;
+          
+        }
+
+        .card1{
+          margin-bottom: 20px;
+        }
+      
+        .card-body a{
+          font-size: 15px;
         }
       }
