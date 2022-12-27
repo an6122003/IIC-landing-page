@@ -33,7 +33,6 @@ body {
 
 }
   
-  
   .navbar_title {
     font-size: 1.8rem;
     font-weight:585;
@@ -176,6 +175,29 @@ body {
         -webkit-filter: saturate(0.2) opacity(0.5);
         cursor: not-allowed;
       }
+
+.tvc-vid{
+        position: relative;
+        overflow: hidden;
+        padding-top: 55.555%;
+        margin: auto;
+
+      }
+.tvc-vid iframe{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+      }
+
+      
+
 
     @media only screen and (max-width: 700px) {
         .home_sec{
@@ -323,4 +345,5 @@ body {
         .card-body a{
           font-size: 15px;
         }
+
       }
