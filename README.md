@@ -7,8 +7,8 @@
 ## 📖 Description
 
 - This is the landing page for Intelligent Investment Competition 2022.
-- View more of the competition at: 
-- View the final of the competition at: 
+- View more of the competition at: https://www.facebook.com/intelligentinvestmentcompetition
+- View the final of the competition at: https://www.youtube.com/watch?v=q2PbVIzHCHA&t=6068s&ab_channel=IntelligentInvestmentCompetition
 
 ## 🔮 Demo
 <img src="https://github.com/an6122003/IIC-landing-page/blob/main/Blob/cover.png?raw=true">
